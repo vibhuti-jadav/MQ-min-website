@@ -21,6 +21,11 @@
     width: 80%;
 }
 
+.w-9{
+    width: 3%;
+}
+
+
 
 
 @media(min-width:576px){
@@ -96,6 +101,10 @@
     .w-xxl-4{
         width: 25%;
     }
+    .style{
+        transform:translateY(-124px);
+    }
+    
 
 
 }

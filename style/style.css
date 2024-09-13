@@ -21,6 +21,41 @@
     flex-wrap: wrap;
 }
 
+.display-flex{
+    display: flex;
+}
+
+.flex-column{
+    flex-direction: column;
+}
+
+.justify-content{
+    justify-content: end;
+}
+
+.justify-space{
+    justify-content: space-between;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.inline-block{
+    display: inline-block;
+}
+
+/* -------------------------align-items------------------------ */
+
+.align-center{
+    align-items: center;
+}
+
+.align-end{
+    align-items: end;
+}
+
+
 
 
 /* ----------------------------padding------------------ */
@@ -30,6 +65,41 @@
 
 .p20{
     padding: 20px 20px;
+}
+
+.p15{
+    padding: 15px 15px;
+}
+.p50{
+    padding: 50px 50px;
+}
+.p-t{
+    padding-top: 15%;
+}
+.p-top{
+    padding-top: 10%;
+}
+.p-b{
+    padding-bottom: 10px;
+}
+
+.p-bottom{
+    padding-bottom: 15%;
+}
+.p-bottom2{
+    padding-bottom: 10%;
+}
+.p-r{
+    padding-right: 10px;
+}
+.p-right{
+    padding-right: 20px;
+}
+.p-l{
+    padding-left: 10px;
+}
+.p-r{
+    padding-right: 10px;
 }
 
 /* ----------------margin-------------------- */
@@ -92,11 +162,16 @@
     border: 1px solid gray;
 }
 
+
 /* -----------------------background-color--------------------------- */
 
 .back-color{
     background-color: #e3f3f0;
 }
+.back-white{
+    background-color: white;
+}
+
 
 .back-color2{
     background-color: #ffeed4;
@@ -106,7 +181,148 @@
     background-color: #eb6c59;
 }
 
+.back-img{
+    background-image: url(../img/theme.png);
+}
+
+.back-green{
+    background-color: #4cc083;
+}
+
+/* -------------------------------------------------------css-design---------------------------------------- */
+
 /* -------------font-color-------------------- */
 .color-white{
     color: white;
+}
+
+.color-green{
+    color: #4cc083;
+}
+.color-red{
+    color: #eb6c59;
+}
+
+.color-brown{
+    color: #30333a;
+}
+
+/* ----------------icons------------------- */
+
+.icons>i{
+    font-size: 23px;
+    font-weight: 500; 
+}
+
+
+.gap{
+ gap: 5%;
+}
+
+
+
+/* -------------------li------------------- */
+
+li{
+    list-style: none;
+    font-weight: 600;
+}
+
+li:hover{
+    color: #4cc083;
+    transition: all 0.5s;
+}
+
+
+/* -----------------fonr-size------------------------- */
+
+.font80{
+    font-size: 80px;
+}
+.font24{
+    font-size: 24px;
+}
+
+.font16{
+    font-size: 16px;
+}
+
+.font32{
+    font-size: 32px;
+}
+.font40{
+    font-size: 40px;
+}
+.font-weight{
+    font-weight: 600;
+}
+
+/* ---------------line-height---------------------- */
+.line-height{
+    line-height: 120%;
+}
+
+
+
+/* -------------------input------------------ */
+
+.inputemail{
+    width: 90%;
+    position: relative;
+}
+
+.box{
+    background-color: #4cc083;
+    border: none;
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+    transform: translateX(-110%);
+    align-self: center;
+}
+
+
+/* -------------------radius------------------------ */
+.radius{
+    border-radius: 10px;
+}
+.radius30{
+    border-radius: 30px;
+}
+.radius50{
+    border-radius: 50%;
+}
+
+
+/* -------------------------------shadow------------------------- */
+
+.shadow{
+     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;;
+}
+
+
+
+/* ------------------------hover-effects------------------------ */
+
+.b4e:hover{
+    background-color: #4cc083;
+    color: white;
+    transition: all 0.5s;
+}
+.b4e:hover h2{
+    color: white;
+    transition: all 0.5s;
+}
+
+/* --------------button---------------------- */
+
+.lm{
+    width: 30%;
+    border: none;
+}
+
+.lm:hover{
+    background-color: #46a874;
+    color: white;
+    transition: all 0.5s;
 }
