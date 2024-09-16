@@ -37,9 +37,11 @@
     justify-content: space-between;
 }
 
+
 .justify-center{
     justify-content: center;
 }
+
 
 .inline-block{
     display: inline-block;
@@ -55,6 +57,21 @@
     align-items: end;
 }
 
+
+/* -----------------------margin------------------------- */
+
+.mt-20{
+    margin-top: 20px;
+}
+.mt-50{
+    margin-top: 50px;
+}
+.mt-100{
+    margin-top: 100px;
+}
+.mt-150{
+    margin-top: 150px;
+}
 
 
 
@@ -79,6 +96,9 @@
 .p-top{
     padding-top: 10%;
 }
+.p-top5{
+    padding-top: 5%;
+}
 .p-b{
     padding-bottom: 10px;
 }
@@ -98,15 +118,19 @@
 .p-l{
     padding-left: 10px;
 }
+.p-left{
+    padding-left: 30px;
+}
+.p-left2{
+    padding-left: 80px;
+}
+.p-left3{
+    padding-left: 70px;
+}
 .p-r{
     padding-right: 10px;
 }
 
-/* ----------------margin-------------------- */
-
-.mt-50{
-    margin-top: 50px;
-}
 /* ---------------height------------------ */
 
 .h-100{
@@ -161,6 +185,11 @@
 .b-gray{
     border: 1px solid gray;
 }
+.b-none{
+    border: none;
+}
+
+
 
 
 /* -----------------------background-color--------------------------- */
@@ -189,6 +218,21 @@
     background-color: #4cc083;
 }
 
+.back-green2{
+    background-color: #e2f3f0;
+}
+
+.back-skeen{
+    background-color: #ffeed3;
+}
+
+.back-gray{
+    background-color: #e0e5eb;
+}
+.back-tomato{
+    background-color: #ffe9e5;
+}
+
 /* -------------------------------------------------------css-design---------------------------------------- */
 
 /* -------------font-color-------------------- */
@@ -205,6 +249,21 @@
 
 .color-brown{
     color: #30333a;
+}
+
+.color-br{
+    color: #6c757d;
+}
+
+.color-yelow{
+    color: #f3c06e;
+}
+
+.color-tomato{
+    color: #ec6c5a;
+}
+.color-gray{
+    color: #827e7b;
 }
 
 /* ----------------icons------------------- */
@@ -245,6 +304,9 @@ li:hover{
 
 .font16{
     font-size: 16px;
+}
+.font20{
+    font-size: 20px;
 }
 
 .font32{
@@ -300,6 +362,10 @@ li:hover{
      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;;
 }
 
+.shadow2{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
 
 
 /* ------------------------hover-effects------------------------ */
@@ -311,6 +377,38 @@ li:hover{
 }
 .b4e:hover h2{
     color: white;
+    transition: all 0.5s;
+}
+
+.pc1:hover{
+    background-color: #46a874;
+    transition: all 0.5s;
+}
+.cw:hover{
+    color: white;
+    transition: all 0.5s;
+}
+.cw:hover .cv{
+    color:white;
+    transition: all 0.5s;
+}
+
+.pc2:hover{
+    background-color: #363b46d3;
+    transition: all 0.5s;
+}
+.pc3:hover{
+    background-color: #e6a844e3;
+    transition: all 0.5s;
+}
+
+.pc4:hover{
+    background-color: #f15f4c;
+    transition: all 0.5s;
+}
+
+.cg:hover{
+    color: #46a874;
     transition: all 0.5s;
 }
 

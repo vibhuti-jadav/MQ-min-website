@@ -17,6 +17,15 @@
     width: 60%;
 }
 
+.w-10{
+    width: 40%;
+}
+
+.w-7{
+    width: 75%;
+}
+
+
 .w-8{
     width: 80%;
 }
@@ -48,6 +57,10 @@
     }
     .w-md-2{
         width: 50%;
+    }
+
+    .align-start{
+        align-items: start;
     }
     .w-md-3{
         width: 33.33%;
