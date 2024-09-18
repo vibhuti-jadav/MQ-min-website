@@ -73,6 +73,10 @@
     margin-top: 150px;
 }
 
+.mt-b-100{
+    margin-bottom: 100px;
+}
+
 
 
 /* ----------------------------padding------------------ */
@@ -83,6 +87,10 @@
 .p20{
     padding: 20px 20px;
 }
+.p50{
+    padding: 50px 50px;
+}
+
 
 .p15{
     padding: 15px 15px;
@@ -101,6 +109,9 @@
 }
 .p-b{
     padding-bottom: 10px;
+}
+.p-b2{
+    padding-bottom: 5px;
 }
 
 .p-bottom{
@@ -189,6 +200,13 @@
     border: none;
 }
 
+.b-white{
+    border: 1px solid white;
+}
+
+.b-up{
+    border-top: 1px solid gainsboro;
+}
 
 
 
@@ -231,6 +249,10 @@
 }
 .back-tomato{
     background-color: #ffe9e5;
+}
+
+.back-green2{
+    background-color: #e3f3f0;
 }
 
 /* -------------------------------------------------------css-design---------------------------------------- */
@@ -300,6 +322,10 @@ li:hover{
 }
 .font24{
     font-size: 24px;
+}
+
+.font14{
+    font-size: 14px;
 }
 
 .font16{
@@ -412,6 +438,28 @@ li:hover{
     transition: all 0.5s;
 }
 
+
+.imgffect{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+   border-radius: 10px;
+    
+}
+
+.imgffect img{
+    transition: all 0.5s;
+}
+
+.imgffect:hover img{
+    scale: 1.1;
+}
+
+.t-green:hover{
+    color: #46a874;
+    transition: all 0.5s;
+
+}
 /* --------------button---------------------- */
 
 .lm{
@@ -424,3 +472,52 @@ li:hover{
     color: white;
     transition: all 0.5s;
 }
+
+
+/* ------------slider------------------------- */
+
+
+.slick-next {
+    right: -25px;
+    display: none;
+}
+
+.slick-prev{
+    display: none;
+}
+
+.slick-dots li button:before {
+    font-family: 'slick';
+    font-size: 50px !important;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* width: 20px; */
+    height: 20px;
+    content: '•';
+    text-align: center;
+    opacity: .25;
+    color:#46a874 !important;
+    
+}
+
+
+/* .slick-prev .slick-next {
+    font-size: 0;
+    line-height: 0;
+    position:absolute;
+    top: 50%;
+    display: block;
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: none;
+    background: transparent;
+} */

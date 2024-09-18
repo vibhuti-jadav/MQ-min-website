@@ -59,9 +59,6 @@
         width: 50%;
     }
 
-    .align-start{
-        align-items: start;
-    }
     .w-md-3{
         width: 33.33%;
     }
@@ -98,6 +95,10 @@
     }
     .w-xl-5{
         width: 20%;
+    }
+
+    .w-xl-18{
+        width: 18.5%;
     }
 }
 
