@@ -1,7 +1,7 @@
 $('.autoplay').slick({
     slidesToShow: 3,
     slidesToScroll: 2,
-    autoplay: false,
+    autoplay: true,
     arrows:false,
     dots:true,
     infinite:true,
