@@ -42,9 +42,48 @@
     justify-content: center;
 }
 
+.justify-start{
+    justify-content: start;
+}
+
 
 .inline-block{
     display: inline-block;
+}
+
+/* ---------------------------navbar----------------------- */
+
+/* .postion-relative{
+    position: relative;
+}
+
+.menu-button{
+    position: absolute;
+} */
+
+.dropdown{
+    position:relative;
+}
+
+.dropdown-menu{
+    position: absolute;
+    list-style: none;
+    display: none;
+    top: 27px;
+    box-shadow: 1px 1px 4px solid black;
+    scroll-behavior: smooth;
+    background-color: white;
+    color: black;
+    padding: 20px;
+    line-height: 35px;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+}
+
+
+.dropdown-menu:hover{
+        color: black;
+        
 }
 
 /* -------------------------align-items------------------------ */
@@ -86,6 +125,10 @@
 
 .p20{
     padding: 20px 20px;
+}
+
+.p30{
+    padding: 30px 30px;
 }
 .p50{
     padding: 50px 50px;
@@ -140,6 +183,12 @@
 }
 .p-r{
     padding-right: 10px;
+}
+
+
+/* ---------------------width------------------------ */
+.effectwidth{
+    width:200px;
 }
 
 /* ---------------height------------------ */
@@ -309,7 +358,7 @@ li{
     font-weight: 600;
 }
 
-li:hover{
+.greenffect:hover{
     color: #4cc083;
     transition: all 0.5s;
 }
@@ -367,6 +416,10 @@ li:hover{
     font-size: 15px;
     transform: translateX(-110%);
     align-self: center;
+}
+
+.footerplace::placeholder{
+    text-align: center;
 }
 
 
@@ -451,15 +504,20 @@ li:hover{
     transition: all 0.5s;
 }
 
-.imgffect:hover img{
-    scale: 1.1;
-}
+/* .imgffect:hover img{
+    scale: 1.1 !important;
+} */
 
 .t-green:hover{
     color: #46a874;
     transition: all 0.5s;
 
 }
+
+
+
+
+
 /* --------------button---------------------- */
 
 .lm{
@@ -501,6 +559,49 @@ li:hover{
     color:#46a874 !important;
     
 }
+
+/* -------------------------------------icons-effects-------------------------------------- */
+
+.icon{
+    position: absolute;
+    flex-direction: column;
+}
+
+.icon i{
+
+    font-size: 25px;
+    color: white;
+    background-color: #4CC082;
+    padding: 5px;
+    transform: rotateY(-90deg);
+    transform-origin: 0% -50%;
+    overflow: hidden;
+    transition: all 0.5s; 
+}
+.icon i:first-child{
+    transition: all 0.4s;
+}
+.icon i:nth-child(2){
+    transition: all 0.4s 0.3s;
+}
+.icon i:nth-child(3){
+    transition: all 0.4s 0.6s;
+}
+.icon i:last-child{
+    transition: all 0.4s 0.9s;
+}
+
+.img-hover:hover .icon i{
+    transform: rotateY(0deg);
+    }
+
+
+.position-relative-img{
+    position: relative;
+   
+}
+
+
 
 
 /* .slick-prev .slick-next {

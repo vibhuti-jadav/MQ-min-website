@@ -25,30 +25,92 @@
        
     <!-- -----------------navbar----------------------- -->
 
-        <div class="container-fluid b-red d-flex">
-            <div class="w-1 w-xs-2 w-lg-3  b-blue p10">
+        <div class="container-fluid  justify-space display-flex dwrap dnowrap">
+            <div class="  p20">
                 <img src="img/logo.png" alt="">
             </div>
-            <div class="w-1  w-xs-2  w-lg-3 b-blue ">
-                    <div class="items ">
-                        <ul class="d-flex justify-center gap p20 ">
-                            <li class="color-green">HOME</li>
-                            <li>PAGES</li>
-                            <li>COURSES</li>
-                            <li>EVENTS</li>
-                            <li>BLOG</li>
-                            <li>SHOP</li>
-                            <li>CONTACT</li>
+            <div class=" d-none  p20">
+                <button class=" display-flex btnclick b-gray radius font-weight font24 back-white  align-end p10">
+                    <i class="ri-menu-line  "></i>
+                </button>
+
+            </div>
+            <div class="w-1 postion-relative side-nav   items">
+                    <div class=" p10">
+
+                        <div class="w-1  d-none">
+                            <button class="btnclick1 p10 color-gray font20 font-weight back-white b-none">
+                                <i class="ri-close-large-fill"></i>
+                            </button>
+                        </div>
+                        <div class="  d-none p20 ">
+                            <img src="img/logo.png" alt="">
+                        </div>
+
+                        
+                        <ul class="d-flex justify-center gap p20 d-lg-column ">
+                            <li class="color-green border-gainsboro">HOME</li>
+                            <div class="dropdown d1 border-gainsboro">
+                            <li class="greenffect z-index">PAGES<i class="ri-arrow-down-s-fill "></i>
+                            <ul class="dropdown-menu m1 z-index">
+                                <li>ABOUT US </li>
+                                <li>INSTRUCTION</li>
+                                <li>CART</li>
+                                <li>WISHLIST</li>
+                                <li>CHECKOUT</li>
+                                <li>PRICE PLAN</li>
+                                <li>CONTACT</li>
+                                <li>FAQS</li>
+                                <li>ACCOUNT</li>
+                                <li>THANKYOU</li>
+                                <li>ERROR 404</li>
+                                <li>STYLES</li>
+                            </ul>
+                            </li>
+                            </div>
+                            <div class="dropdown d2 border-gainsboro">
+                            <li class="greenffect">COURSES<i class="ri-arrow-down-s-fill "></i>
+                                <ul class="dropdown-menu m2 effectwidth z-index">
+                                    <li>COURSE</li>
+                                    <li>COURSES DETAIL</li>
+                                </ul>
+                            </li>
+                        </div>
+
+                            <div class="dropdown d3 border-gainsboro">
+                            <li class="greenffect">EVENTS<i class="ri-arrow-down-s-fill "></i>
+                                <ul class="dropdown-menu m3 effectwidth z-index">
+                                    <li>EVENT</li>
+                                    <li>EVENT DETAIL</li>
+                                </ul>
+                            </li></div>
+
+                            <div class="dropdown d4 border-gainsboro">
+                            <li class="greenffect">BLOG<i class="ri-arrow-down-s-fill "></i>
+                                <ul class="dropdown-menu m4 effectwidth z-index">
+                                    <li>BLOG</li>
+                                    <li>SINGLE POST</li>
+                                </ul>
+                            </li>
+                        </div>
+
+                        <div class="dropdown d5 border-gainsboro">
+                            <li class="greenffect">SHOP<i class="ri-arrow-down-s-fill "></i>
+                                <ul class="dropdown-menu m5 effectwidth z-index">
+                                    <li>SHOP</li>
+                                    <li>SINGLE PRODUCT</li>
+                                </ul>
+                            </li></div>
+                            <li class="greenffect border-gainsboro">CONTACT</li>
                         </ul>
                     </div>
+                        
+               
+                </div>
 
-                    <button class="menu-button p10">
-                        <i class="ri-menu-line  "></i>
-                    </button>
-     </div>
           
            
-            <div class="w-1 w-xs-2 w-lg-3  b-blue p20 icons  gap d-flex justify-content">
+            <div class="w-1 w-lg-4  p30 icons justify-end gap d-flex justify-start justify-lg-end">
 
               
 
@@ -67,7 +129,7 @@
                     <h class="font80 p-b color-brown line-height">MASTER YOUR SKILLS ONLINE</h>
                     <p class="font24 line-height p20">Online Courses Taught by Industry Titans!</p>
                         <form action="" class="display-flex">
-                            <input class="inputemail p15 radius b-black" type="text" placeholder="What are you trying to learn?">
+                            <input class="inputemail p15 radius b-black b-none" type="text" placeholder="What are you trying to learn?">
                             <button class=" back-color3 box p10 radius">
                                 <i class="ri-search-line"></i>
                             </button>
@@ -676,9 +738,23 @@
                 <div class="container mt-50  d-flex">
                     <div class="w-1  w-sm-2 w-md-3 w-lg-4 w-xl-5 p10">
                         <div class="w-1 p10 radius shadow2 ">
-                            <div class="w-1 imgffect">
+                          
+
+                                <div class="position-relative-img img-hover">
+                                    <div class="icon d-flex w-20 t-center">
+                                        <i class="ri-facebook-circle-fill p-5"></i>
+                                        <i class="ri-twitter-fill p-5"></i>
+                                        <i class="ri-instagram-line p-5"></i>
+                                        <i class="ri-linkedin-box-fill p-5"></i>
+    
+                                    </div>
+                                   
+
+
+
                                 <img src="img/teacher1.jpg" alt="" width="100%" class="radius"> 
                             </div>
+                      
                             <div class="w-1  d-flex  justify-center font16 font-weight"> Anila Lee</div>
                             <div class="w-1  d-flex justify-center font16 color-red">Art Director</div>
 
@@ -686,7 +762,16 @@
                     </div>
                     <div class="w-1  w-sm-2 w-md-3 w-lg-4 w-xl-5 p10">
                         <div class="w-1 p10 radius shadow2">
-                            <div class="w-1 imgffect">
+
+
+                            <div class="position-relative-img img-hover">
+                                <div class="icon d-flex w-20 t-center">
+                                    <i class="ri-facebook-circle-fill p-5"></i>
+                                    <i class="ri-twitter-fill p-5"></i>
+                                    <i class="ri-instagram-line p-5"></i>
+                                    <i class="ri-linkedin-box-fill p-5"></i>
+
+                                </div>
                                 <img src="img/teacher2.jpg" alt="" width="100%" class="radius"> 
                             </div>
                             <div class="w-1  d-flex  justify-center font16 font-weight">Bruce Smith</div>
@@ -697,7 +782,14 @@
                     </div>
                     <div class="w-1  w-sm-2 w-md-3 w-lg-4 w-xl-5 p10">
                         <div class="w-1 p10 radius shadow2">
-                            <div class="w-1 imgffect">
+                            <div class="position-relative-img img-hover">
+                                <div class="icon d-flex w-20 t-center">
+                                    <i class="ri-facebook-circle-fill p-5"></i>
+                                    <i class="ri-twitter-fill p-5"></i>
+                                    <i class="ri-instagram-line p-5"></i>
+                                    <i class="ri-linkedin-box-fill p-5"></i>
+
+                                </div>
                                 <img src="img/teacher3.jpg" alt="" width="100%" class="radius"> 
                             </div>
                             <div class="w-1  d-flex  justify-center font16 font-weight">Jack Nicholson</div>
@@ -708,7 +800,14 @@
                     </div>
                     <div class="w-1  w-sm-2 w-md-3 w-lg-4 w-xl-5 p10">
                         <div class="w-1 p10 radius shadow2">
-                            <div class="w-1 imgffect">
+                            <div class="position-relative-img img-hover">
+                                <div class="icon d-flex w-20 t-center">
+                                    <i class="ri-facebook-circle-fill p-5"></i>
+                                    <i class="ri-twitter-fill p-5"></i>
+                                    <i class="ri-instagram-line p-5"></i>
+                                    <i class="ri-linkedin-box-fill p-5"></i>
+
+                                </div>
                                 <img src="img/teacher4.jpg" alt="" width="100%" class="radius"> 
                             </div>
                             <div class="w-1  d-flex  justify-center font16 font-weight">Calvin Ian</div>
@@ -719,7 +818,14 @@
                     </div>
                     <div class="w-1  w-sm-2 w-md-3 w-lg-4 w-xl-5 p10">
                         <div class="w-1 p10 radius shadow2">
-                            <div class="w-1 imgffect">
+                            <div class="position-relative-img img-hover">
+                                <div class="icon d-flex w-20 t-center">
+                                    <i class="ri-facebook-circle-fill p-5"></i>
+                                    <i class="ri-twitter-fill p-5"></i>
+                                    <i class="ri-instagram-line p-5"></i>
+                                    <i class="ri-linkedin-box-fill p-5"></i>
+
+                                </div>
                                 <img src="img/teacher5.jpg" alt="" width="100%" class="radius"> 
                             </div>
                             <div class="w-1  d-flex  justify-center font16 font-weight">Milye Sam</div>
@@ -800,16 +906,16 @@
                 <section class="back-color2">
                     <div class="container mt-100  d-flex ">
                         <div class="w-1  w-md-2  p-left font32 p-bottom2">
-                            <h2 class="font-weight p-top p-left">Subscribe And Get 20% OFF On Your First Online Course</h2>
+                            <h2 class="font-weight p-top  p-left">Subscribe And Get 20% OFF On Your First Online Course</h2>
                                 <h class="font16 p-left color-red ">Sign Up for our newsletter and never miss any offers</h>
                         </div>
                         <div class="w-1  w-md-2">
                                 
-                                 <div class="w-1  d-flex justify-center  mt-100">
-                                    <input type="text" placeholder="Write Your Email Address*" class="w-2 radius30 p10 b-none">
+                                 <div class="  d-flex justify-center  mt-100">
+                                    <input type="text" placeholder="Write Your Email Address* "  class="w-7 footerplace  radius30 p20 b-none">
                                  </div>
                                  <div class="w-1  d-flex justify-center  mt-20">
-                                    <button class="w-2 radius30 p10 back-green color-white lm">Get Started Now</button>
+                                    <button class="w-7  radius30 p20 back-green color-white lm">Get Started Now</button>
                                  </div>
                         </div>
                     </div>
