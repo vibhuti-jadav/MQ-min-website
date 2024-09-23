@@ -77,6 +77,10 @@
     .w-sm-4{
         width: 25%;
     }
+
+    .font-sm-80{
+        font-size: 80px;
+    }
 }
 @media(min-width:768px){
     .w-md-1{
@@ -92,6 +96,8 @@
     .w-md-4{
         width: 25%;
     }
+
+   
 }
 @media(min-width:992px){
     .w-lg-1{
@@ -133,6 +139,7 @@
         justify-content: end;
     }
 
+   
 
   
     
