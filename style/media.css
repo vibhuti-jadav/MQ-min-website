@@ -113,7 +113,7 @@
         width: 25%;
     }
     .items{
-        display:block
+        display:block;
     }
     .d-none{
         display: none;
@@ -137,6 +137,10 @@
 
     .justify-lg-end{
         justify-content: end;
+    }
+
+    .mt-lg-top{
+        margin-top: 20px;
     }
 
    
